@@ -1,5 +1,5 @@
 [package]
-name = "Monte Carlo Pi"
+name = "Monte-Carlo-Pi"
 version = "0.1.0"
 edition = "2021"
 description = "Estimer PI avec la méthode de Monte Carlo"
