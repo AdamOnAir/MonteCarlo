@@ -46,4 +46,7 @@ fn main() {
         "Estimation de pi avec {} points: {}",
         num_points, pi_estimate
     );
+    
+    let erreur = pi_estimate - std::f64::consts::PI;
+    println!("La marge d'erreur est de : {}", erreur);
 }
